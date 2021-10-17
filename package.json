@@ -1,0 +1,41 @@
+{
+  "name": "@coolicons/vue",
+  "version": "1.0.4",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-coolicons.umd.js",
+  "module": "./dist/vue-coolicons.es.js",
+  "exports": {
+    ".": {
+      "require": "./dist/vue-coolicons.umd.js",
+      "import": "./dist/vue-coolicons.es.js"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build && vue-tsc --declaration --emitDeclarationOnly",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.28.6"
+  },
+  "repository": {
+    "url": "https://github.com/henrycunh/vue-coolicons"
+  },
+  "author": {
+    "name": "Henrique Cunha"
+  }
+}
