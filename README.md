@@ -3,6 +3,12 @@
 # vue-coolicons
 A really lightweight Vue component for the coolicons icon library with Typescript support.
 
+## Icon list
+You can search for the icons on the [official coolicons
+page](https://coolicons.cool/), upon clicking on a icon you can just use it's
+**name** on the **`is`** property of the component.
+> e.g. **`chevron_big_up`** would become something like `<vc-icon
+> is="chevron_big_up"/>`
 
 ## Usage
 1. Install the dependency.
