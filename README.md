@@ -1,5 +1,8 @@
 ![](./public/banner.png)
 
+> **DEPRECATED**
+Please use **[unplugin-icons](https://github.com/antfu/unplugin-icons)**, it supports much more icon libraries and has much better tooling!
+
 # vue-coolicons
 A really lightweight Vue component for the coolicons icon library with Typescript support.
 
